@@ -1,0 +1,9 @@
+<?php if($_POST['reviews']==1) echo json_encode([
+
+											"1"=>['image'=>'../img/rev1.jpeg', 'name'=>'Kita Say', 'position'=>'(HK Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'5'], 
+											 "2"=>['image'=>'../img/rev2.jpg', 'name'=>'Al Rayhan', 'position'=>'(UX Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'5'],
+											"3"=>['image'=>'../img/rev3.jpg', 'name'=>'Rayhan Say', 'position'=>'(HK Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'3'],
+											"4"=>['image'=>'../img/rev4.jpg', 'name'=>'Kita Rayhan', 'position'=>'(UX Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'5'],
+											"5"=>['image'=>'../img/des.jpg', 'name'=>'Say Al', 'position'=>'(UX Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'1'],
+											"6"=>['image'=>'../img/rev2.jpg', 'name'=>'Al Kita', 'position'=>'(HK Director)', 'text'=>'This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again', 'star'=>'2']]);
+?>
